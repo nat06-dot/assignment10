@@ -1,4 +1,4 @@
-import { VenueItem } from "../../interface";
+import { VenueItem } from "../../interfaces";
 
 export default async function getVenue(vid: string): Promise<{ data: VenueItem }> {
     const response = await fetch(

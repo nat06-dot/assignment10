@@ -1,4 +1,4 @@
-import { VenueJson } from "../../interface";
+import { VenueJson } from "../../interfaces";
 
 export default async function getVenues(): Promise<VenueJson> {
     const response = await fetch(
