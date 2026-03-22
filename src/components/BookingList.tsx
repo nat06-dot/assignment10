@@ -2,7 +2,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { RootState, AppDispatch } from "@/redux/store";
 import { removeBooking } from "@/redux/features/bookSlice";
-import { VenueJson, VenueItem } from "../../interfaces";
+import { BookingItem } from "../../interfaces";
 
 export default function BookingList() {
   const bookItems = useSelector(

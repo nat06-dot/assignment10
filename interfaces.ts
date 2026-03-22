@@ -7,6 +7,9 @@ export interface VenueItem {
   postalcode: string;
   tel: string;
   picture: string;
+  dailyrate: number;
+  __v: number;
+  id: string;
 }
 
 export interface VenueJson {
